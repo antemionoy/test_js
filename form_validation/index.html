@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/template.css">
+    <title>form_validate</title>
+</head>
+
+<body>
+    <div class="form-fields">
+        <form class="form-callback" action="#" method="POST">
+            <header class="text-center">Заказать услугу</header>
+            <input class="inp" type="text" name="name" placeholder="Имя" id="name" data-errortext="Укажите ваше имя">
+            <input class="inp" type="text" name="phone" placeholder="Телефон" id="phone" data-errortext="Укажите ваш телефон">
+            <input class="inp" type="email" name="email" placeholder="E-mail" id="email" data-errortext="Укажите вашу эл. почту">
+            <textarea name="message" class="inp" placeholder="Ваше сообщение"></textarea>
+            <button type="submit" class="btn">Отправить</button>
+        </form>
+        <div class="form-complete">
+            <div class="table">
+                <div class="cell-middle">
+                    Cпасибо,
+                    <br> мы с вами свяжемся!
+                    <br>
+                </div>
+            </div>
+            <a href="#" class="close">+</a>
+        </div>
+    </div>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

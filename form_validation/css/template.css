@@ -1,0 +1,195 @@
+input.error,
+textarea.error {
+    border-bottom: 1px solid red !important;
+    color: red !important;
+}
+
+label.error {
+    color: red !important;
+}
+
+input.error::-webkit-input-placeholder,
+textarea.error::-webkit-input-placeholder {
+    color: rgb(255, 120, 124);
+}
+
+input.error:-moz-placeholder,
+textarea.error:-moz-placeholder {
+    /* Firefox 18- */
+    color: rgb(255, 120, 124);
+}
+
+input.error::-moz-placeholder,
+textarea.error::-moz-placeholder {
+    /* Firefox 19+ */
+    color: rgb(255, 120, 124);
+}
+
+input.error:-ms-input-placeholder,
+textarea.error:-ms-input-placeholder {
+    color: rgb(255, 120, 124);
+}
+
+body{
+    padding: 20px;
+}
+
+
+.error-box {
+    padding-top: 35px;
+    color: red;
+    font-size: 13px;
+    text-align: left;
+    line-height: normal;
+}
+
+.close {
+    position: absolute;
+    top: 30px;
+    border-bottom: 0 none;
+    width: 26px;
+    height: 26px;
+    margin: auto;
+    color: #000;
+    font-size: 48px;
+    line-height: 32px;
+    text-align: center;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    right: 0;
+    top: 0;
+}
+
+.form-complete {
+    display: none;
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+    padding-bottom: 100px;
+    color: #000;
+
+}
+
+.has-error .form-control:focus {
+    box-shadow: none;
+}
+
+.form-complete .table {
+    display: table;
+    width: 100%;
+    height: 100%;
+    margin-top: 80px;
+}
+
+.form-complete .table .cell-middle {
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 27px;
+}
+
+.form-fields,
+.form-compete {
+    height: 100%;
+
+}
+
+
+/* Inputs */
+
+.inp {
+    width: 100%;
+    height: 45px;
+    padding: 10px 0;
+    border: 0 none;
+    outline: 0 none;
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 18px;
+    line-height: 25px;
+    background: transparent;
+    box-shadow: none;
+}
+
+.inp::-webkit-input-placeholder {
+    padding: 0;
+    color: #000;
+    font-size: 18px;
+    line-height: 25px;
+    opacity: 1;
+}
+
+.inp:-moz-placeholder {
+    padding: 0;
+    color: #000;
+    font-size: 18px;
+    line-height: 25px;
+    opacity: 1;
+}
+
+.inp::-moz-placeholder {
+    padding: 0;
+    color: #000;;
+    font-size: 18px;
+    line-height: 25px;
+    opacity: 1;
+}
+
+.inp:-ms-input-placeholder {
+    padding: 0;
+    color: #000;
+    font-size: 18px;
+    line-height: 25px;
+    opacity: 1;
+}
+
+textarea.inp {
+    height: 220px;
+    padding: 0 0 9px;
+    font-size: 18px;
+    line-height: 45px;
+    outline: none;
+    resize: none;
+    vertical-align: middle;
+    overflow: auto;
+}
+
+textarea.inp::-webkit-input-placeholder {
+    padding: 0;
+    color: #000;
+    font-size: 18px;
+    line-height: 46px;
+    opacity: 1;
+}
+
+textarea.inp:-moz-placeholder {
+    padding: 0;
+    color: #000;
+    font-size: 18px;
+    line-height: 45px;
+    opacity: 1;
+}
+
+textarea.inp::-moz-placeholder {
+    padding: 0;
+    color: #000;
+    font-size: 18px;
+    /*font-family: 'Circe';*/
+    font-family: "Raleway";
+    line-height: 45px;
+    opacity: 1;
+}
+
+textarea.inp:-ms-input-placeholder {
+    padding: 0;
+    color: #000;
+    font-size: 18px;
+    line-height: 45px;
+    opacity: 1;
+}
